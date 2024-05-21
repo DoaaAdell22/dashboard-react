@@ -1,0 +1,48 @@
+.projects {
+    text-align: center;
+    background-image: url('https://appssquare-website.vercel.app/bg/projects.png');
+    padding: 20px 0;
+    margin: 0 -29px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+.projects .image img {
+    width: 800px;
+
+}
+
+.projects .contact {
+    background-image: url('https://appssquare-website.vercel.app/bg/bg-ai.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 370px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.projects .contact .text {
+    width: 450px;
+    font-size: 22px;
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+    padding : 8px;
+    color : white ; 
+    background-color : #00ccff ;
+    border-radius : 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+
+}
+
+
+a:hover {
+    background-color: #0099cc;
+    transform: scale(1.05);
+}
