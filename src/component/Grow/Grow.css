@@ -1,0 +1,22 @@
+.contain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 50px;
+
+}
+.grow {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2 , auto);
+    grid-template-rows: repeat(3 , auto);
+    gap: 70px;
+ 
+}
+
+.grow img {
+    width: 50px;
+}
+

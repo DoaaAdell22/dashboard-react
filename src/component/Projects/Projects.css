@@ -19,9 +19,7 @@
     background-image: url('https://appssquare-website.vercel.app/bg/bg-ai.webp');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 370px;
     display: flex;
-    align-items: center;
     justify-content: center;
 }
 
@@ -45,4 +43,47 @@ a {
 a:hover {
     background-color: #0099cc;
     transform: scale(1.05);
+}
+
+.buttons {
+    display :flex ;
+    justify-content : center ;
+    align-items : center ;
+    gap : 60px ;
+    margin-bottom: 40px;
+}
+
+@media (min-width : 350px ) and (max-width : 575px) {
+    .projects .text {
+        font-size: 15px;
+    }
+    .projects .image img {
+        width: 400px;
+    
+    }
+    .hand {
+        display: none;
+    }
+    
+}
+
+
+@media (min-width : 576px) and (max-width : 767px){
+    .projects .text {
+        font-size: 18px;
+    }
+    .projects .image img {
+        width: 600px;
+    
+    }
+}
+
+@media (min-width : 768px) and (max-width : 991px){
+    .projects .text {
+        font-size: 20px;
+    }
+    .projects .image img {
+        width: 700px;
+    }
+
 }
